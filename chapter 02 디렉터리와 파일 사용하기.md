@@ -419,3 +419,7 @@ find 명령으로 검색한 모든 파일을 대상으로 동일한 작업을 �
 ```bash
 $ find /tmp -user chanwoo -exec rm {} \;
 ```
+
+### 명령어의 위치 찾기: `whereis`, `which` 명령
+
+`whereis`나 `which` 명령은 특정 명령이 있는 위치를 찾아서 절대 경로를 출력한다.
